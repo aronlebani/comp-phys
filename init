@@ -1,0 +1,6 @@
+density=1000
+iterations = 100
+x_min = -2
+x_max = 2
+y_min = -2
+y_max = 2
