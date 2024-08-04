@@ -1,0 +1,35 @@
+Helpful links
+-------------
+
+data: https://ssd.jpl.nasa.gov/horizons/
+great explanation of algorithm: https://physics.stackexchange.com/questions/404790/computerised-solar-system-simulation
+might be useful - a book: https://worldscientific.com/doi/10.1142/9789813200227_0004
+great wikipedia article: https://en.wikipedia.org/wiki/Numerical_model_of_the_Solar_System
+
+Integration methods
+-------------------
+
+Euler - doesn't conserve energy well
+Runge-Kutta 4 - better
+Leapfrog - special case for x'' = f(x) - great long-term energy conservation
+
+Horizons
+--------
+
+Coordinate system:
+
+International Celestial Reference Frame (ICRF)
+
+- Origin at barycenter (https://en.wikipedia.org/wiki/Barycenter_(astronomy))
+
+Earth:
+
+3 e v @0 eclip 2024-Apr-01 2024-Apr-10 1d <cr>
+
+Notes:
+
+- Use barycenters, otherwise results contain oscillations of body relative to
+  it's barycenter, eg oscillations of earth-moon relative to earth-moon
+  barycenter (use 3 instead of 399 for earth).
+- If I want to include the moon in the simulation, then use the body centers
+  (use 399 for earth).
