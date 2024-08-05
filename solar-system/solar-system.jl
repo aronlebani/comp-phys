@@ -48,10 +48,10 @@ const G = 1.487E-10 # au^3.(10^24)kg^-1.day^-2
 
 const Vector3d = Vector{Float64}
 
-mutable struct Body
+struct Body
 	r::Vector3d
 	v::Vector3d
-	mass::Float64
+	m::Float64
 end
 
 function gravitation_1d(x::Int, i::Int, bodies::Array{Body})::Float64
@@ -66,7 +66,7 @@ function gravitation_1d(x::Int, i::Int, bodies::Array{Body})::Float64
 			(bodies[j].r[2] - bodies[i].r[2])^2 +
 			(bodies[j].r[3] - bodies[i].r[3])^2
 		)
-		sum = sum + bodies[j].mass * (bodies[j].r[x] - bodies[i].r[x]) / dist^3
+		sum = sum + bodies[j].m * (bodies[j].r[x] - bodies[i].r[x]) / dist^3
 	end
 
 	G * sum
@@ -85,15 +85,14 @@ function velocity(body::Body, a1::Vector3d, a2::Vector3d, dt::Float64)::Vector3d
 end
 
 function leapfrog(bodies::Array{Body}, dt::Float64)
-	working_bodies = bodies
-	nbodies = length(working_bodies)
+	nbodies = length(bodies)
 
-	a1 = [gravitation(i, working_bodies) for i = 1:nbodies]
-	[working_bodies[i].r = position(working_bodies[i], a1[i], dt) for i = 1:nbodies]
-	a2 = [gravitation(i, working_bodies) for i = 1:nbodies]
-	[working_bodies[i].v = velocity(working_bodies[i], a1[i], a2[i], dt) for i = 1:nbodies]
+	a = [gravitation(i, bodies) for i = 1:nbodies]
+	r_new = [position(bodies[i], a[i], dt) for i = 1:nbodies]
+	a_new = [gravitation(i, bodies) for i = 1:nbodies]
+	v_new = [velocity(bodies[i], a[i], a_new[i], dt) for i = 1:nbodies]
 
-	working_bodies
+	[Body(r_new[i], v_new[i], bodies[i].m) for i in 1:nbodies]
 end
 
 function main()
@@ -123,9 +122,11 @@ function main()
 	scatter!(axis, x, y, z)
 	display(figure)
 
+	@show bodies[][4].r
 	for step = 1:365
 		sleep(0.03)
 		bodies[] = leapfrog(bodies[], dt)
+		@show bodies[][4].r
 	end
 
 	println("Press any key to exit...")
