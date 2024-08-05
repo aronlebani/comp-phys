@@ -79,7 +79,7 @@ function main(file)
 	n_threads = nthreads()
 
 	figure = Figure()
-	axis = Axis(figure[1, 1])
+	axis = Axis(figure[1, 1], aspect = DataAspect())
 
 	density = Observable(settings.density)
 	iterations = Observable(settings.iterations)
