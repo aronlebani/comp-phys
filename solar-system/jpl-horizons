@@ -31,7 +31,7 @@ set port 6775
 
 # Establish defaults
 #
-log_user 1;			# Set to 0 to supress output
+log_user 0;			# Set to 0 to supress output
 exp_internal 0;		# Diagnostic output: 1=on, 0=off
 set timeout 60;		# Set timeout to prevent infinite hang if network is down
 remove_nulls 0;		# Disable null removal from Horizons output

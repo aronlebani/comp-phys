@@ -20,6 +20,7 @@ saturn=6
 uranus=7
 neptune=8
 pluto=9		# I still love you
+sun=10
 
 planets=(
 	"$mercury"
@@ -31,6 +32,7 @@ planets=(
 	"$uranus"
 	"$neptune"
 	"$pluto"
+	"$sun"
 )
 
 extract_coord() {
@@ -43,12 +45,15 @@ extract_coord() {
 }
 
 for planet in "${planets[@]}"; do
-	data_file="./data/$planet.txt"
+	data_file="./planets/$planet.txt"
 
 	# Fetch ephemeris data for each planet using the jpl-horizons script
 	#
+	echo "Querying ephemeris data for $planet"
 	if [ ! -f "$data_file" ]; then
 		./jpl-horizons "$planet" "$data_file"
+	else
+		echo "Already exists"
 	fi
 
 	# Parse data and extract position and velocity vectors
