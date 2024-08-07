@@ -60,6 +60,6 @@ for planet in "${planets[@]}"; do
 	vy=$(extract_coord 'VY' "$data_file")
 	vz=$(extract_coord 'VZ' "$data_file")
 
-	echo "x$planet: ($x, $y, $z)"
-	echo "v$planet: ($vx, $vy, $vz)"
+	echo "r$planet = [$x, $y, $z]"
+	echo "v$planet = [$vx, $vy, $vz]"
 done
