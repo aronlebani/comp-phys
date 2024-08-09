@@ -11,11 +11,11 @@ struct Body
 	m::Float64
 end
 
-struct Settings
-	# Initial values for the positions of the bodies.
+struct Config
+	# Initial position vectors of the bodies.
 	r_init::Array{Vector3d}
 
-	# Initial values for the velocities of the bodies.
+	# Initial velocity vectors of the bodies.
 	v_init::Array{Vector3d}
 
 	# Masses of the bodies.
@@ -55,7 +55,7 @@ function usage()
 	println("Usage: julia $(PROGRAM_FILE) [OPTIONS] <configfile>")
 end
 
-function read_settings_from_file(file)
+function read_config_from_file(file)
 	raw = TOML.parsefile(file)
 
 	G			 = raw["G"]
@@ -70,7 +70,7 @@ function read_settings_from_file(file)
 	iterations   = haskey(raw, "iterations") ? raw["iterations"] : 365
 	scale_factor = haskey(raw, "scale_factor") ? raw["scale_factor"] : 1.0
 
-	Settings(r_init, v_init, m, sizes, colours, dt, iterations, delay,
+	Config(r_init, v_init, m, sizes, colours, dt, iterations, delay,
 		nbodies, scale_factor, G)
 end
 
@@ -147,19 +147,19 @@ function get_limits(r)
 	(-max_r, max_r, -max_r, max_r, -max_z, max_z)
 end
 
-function simulate(settings::Settings)
-	# Runs the simulation with the provided settings.
+function simulate(config::Config)
+	# Runs the simulation with the provided config.
 	
-	nbodies		 = settings.nbodies
-	m			 = settings.m[1:nbodies]
-	r_init		 = settings.r_init[1:nbodies]
-	v_init		 = settings.v_init[1:nbodies]
-	sizes		 = settings.sizes[1:nbodies]
-	colours		 = settings.colours[1:nbodies]
-	dt			 = settings.dt
-	delay		 = settings.delay
-	iterations	 = settings.iterations
-	scale_factor = settings.scale_factor
+	nbodies		 = config.nbodies
+	m			 = config.m[1:nbodies]
+	r_init		 = config.r_init[1:nbodies]
+	v_init		 = config.v_init[1:nbodies]
+	sizes		 = config.sizes[1:nbodies]
+	colours		 = config.colours[1:nbodies]
+	dt			 = config.dt
+	delay		 = config.delay
+	iterations	 = config.iterations
+	scale_factor = config.scale_factor
 
 	bodies = Observable([Body(r_init[i], v_init[i], m[i]) for i = 1:nbodies])
 
@@ -188,23 +188,23 @@ if abspath(PROGRAM_FILE) == @__FILE__
 		exit(1)
 	end
 
-	settings = read_settings_from_file(ARGS[1])
+	config = read_config_from_file(ARGS[1])
 
-	G = settings.G
+	G = config.G
 
-	if settings.nbodies > length(settings.r_init)
+	if config.nbodies > length(config.r_init)
 		println("nbodies must be <= length(r_init)")
 		exit(1)
 	end
 
-	if length(settings.r_init) !=
-		length(settings.v_init) !=
-		length(settings.m) !=
-		length(settings.sizes) !=
-		length(settings.colours)
+	if length(config.r_init) !=
+		length(config.v_init) !=
+		length(config.m) !=
+		length(config.sizes) !=
+		length(config.colours)
 		println("r_init, v_init, m, sizes, colours must have the same length")
 		exit(1)
 	end
 
-	simulate(settings)
+	simulate(config)
 end

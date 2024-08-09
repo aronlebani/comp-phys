@@ -3,17 +3,11 @@
 # body.sh
 #
 # Helper script to fetch body data for each planet from the JPL Horizons
-# system. See ./jpl-horizons.exp. Takes as input a list of Ids from the JPL
-# Horizons major-body database, or a file with each line representing a body in
-# the form <name>=<id>. If no input is provided, reads from stdin. Queries
-# body data for each body. For example:
+# system. See ./jpl-horizons.exp.
 #
-#	./body.sh planets.txt
-#	./body.sh 1 2 3
-#	cat planets.txt | cut -d '=' -f2 | tr '\n' ' ' | ./body.sh
-#
-# Prints the mass and radii to stdout. These can be used to
-# create the configuration files for nbody.jl.
+# Works the same as ./ephemeris.sh, but queries the body data instead of the
+# ephemeris data. It dumps the data into the `bodies` directory, and greps for
+# mass and radius.
 #
 # Aron Lebani <aron@lebani.dev>
 

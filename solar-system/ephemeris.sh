@@ -3,23 +3,30 @@
 # ephemeris.sh
 #
 # Helper script to fetch ephemeris data for each planet from the JPL Horizons
-# system. See ./jpl-horizons.exp. Takes as input a list of Ids from the JPL
-# Horizons major-body database, or a file with each line representing a body in
-# the form <name>=<id>. If no input is provided, reads from stdin. Queries
-# ephemeris data for each body. For example:
+# system. See ./jpl-horizons.exp.
+#
+# Takes as input a list of Ids from the JPL Horizons major-body database, or a
+# file with each line representing a body in the form <name>=<id>. If no input
+# is provided, reads from stdin. Queries ephemeris data for each body. For
+# example:
 #
 #	./ephemeris.sh planets.txt
 #	./ephemeris.sh 1 2 3
 #	cat planets.txt | cut -d '=' -f2 | tr '\n' ' ' | ./ephemeris.sh
 #
-# Prints the position and velocity vectors to stdout. These can be used to
-# create the configuration files for nbody.jl.
+# Dumps the data for each body in a text file in the `ephemeris` directory,
+# where the file name is the Id of the body. If the file already exists, won't
+# query that Id again. Greps the files for position and velocity and prints the
+# vectors to stdout. These can be used to create the configuration files for
+# nbody.jl.
 #
 # Aron Lebani <aron@lebani.dev>
 
 extract_coord() {
 	re=" $1 {0,1}= {0,1}[+-.E0-9]+"
 
+	# Only use the first data point of the ephemeris - since we're using it
+	# as initial conditions.
 	cat "$2" \
 		| grep -E -o -m1 "$re" \
 		| sed "s/ //g" \
