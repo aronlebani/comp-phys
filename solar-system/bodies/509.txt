@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Sinope / (Jupiter)                        509
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 14              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +11.6 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 23700 (10^3)    Orbital period      = 758 d (retro)
+  Eccentricity, e         =   0.275         Rotational period   = 
+  Inclination, i  (deg)   =  153            Local invar ref. pln= Sun
+*******************************************************************************

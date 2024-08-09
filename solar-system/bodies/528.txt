@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021              Autonoe / (Jupiter)                     528
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             =                 Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =   
+                                            V(1,0)              = 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) =                 Orbital period      =
+  Eccentricity, e         =                 Rotational period   = 
+  Inclination, i  (deg)   =      
+*******************************************************************************

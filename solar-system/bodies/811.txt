@@ -1,0 +1,11 @@
+*******************************************************************************
+ Revised: Feb 28, 2024               Sao  / (Neptune)                       811
+                          https://ssd.jpl.nasa.gov/sats/elem/
+
+ Irregular Neptunian satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 22239900.       Sid. orbital period = 2919.4287 d
+  Eccentricity, e         = 0.296           Inclination, i      =  50.2 deg
+  Mean anomaly, M (deg)   = 178.5           Arg of periapse, w  =  93.5 deg
+*******************************************************************************

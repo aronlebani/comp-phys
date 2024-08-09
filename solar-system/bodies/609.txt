@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Jan 26, 2022              Phoebe / (Saturn)                       609
+                          http://ssd.jpl.nasa.gov/?sat_phys_par
+                            http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)            = 106.6    +- 1.1    Density (g/cm^3)=  1.633 +- 0.049
+  Mass (10^19 kg)        =   0.8289           Geometric Albedo=  0.081 +- 0.002
+  GM (km^3/s^2)          =   0.5548 +- 0.0006 V(1,0)          = +1.5 (.7-2.5) 
+
+ SATELLITE ORBITAL DATA (mean values with respect to local Laplace plane):
+  Semi-major axis, a (km)= 12947.78(10^3)     Orbital period    = 550.31 d
+  Eccentricity, e        =     0.1635         Rotational period = Synchronous
+  Inclination, i  (deg)  =   175.986
+*******************************************************************************

@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Lysithea / (Jupiter)                      510
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 12              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +11.7 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 11720 (10^3)    Orbital period      = 259.22 d 
+  Eccentricity, e         =   0.107         Rotational period   = 
+  Inclination, i  (deg)   =   29            Local invar ref. pln= Sun
+*******************************************************************************

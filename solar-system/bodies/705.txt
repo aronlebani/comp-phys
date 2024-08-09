@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Jun 17, 2016             Miranda / (Uranus)                       705
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 240x234.2x232.9   Density (g cm^-3)   =  1.20 +- 0.14
+  Mass (10^20 kg )      =  0.659 +- 0.075   Geometric Albedo    =  0.27 
+                                            V(1,0)              = +3.6 
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole)
+  Semi-major axis, a (km) = 129.8 (10^3)    Orbital period      =  1.413 d
+  Eccentricity, e         =   0.0027        Rotational period   = Synchronous
+  Inclination, i  (deg)   = 175.78
+*******************************************************************************

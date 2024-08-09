@@ -1,0 +1,8 @@
+*******************************************************************************
+ Revised: Mar 07, 2021                Kore / (Jupiter)                      549
+ Description: Apr 15, 2008   http://ssd.jpl.nasa.gov/?sat_elem
+
+ Irregular Jovian satellite reported by S.S. Sheppard (Univ.  of Hawaii). 
+ Initial designation S/2003 J14 (IAUC 8116, 2004-Apr-11).  Named in IAUC 8826 
+ (2007-Apr-5). 
+*******************************************************************************

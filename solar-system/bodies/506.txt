@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021           Himalia  / (Jupiter)                       506
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 85 +- 10         Density (g cm^-3)   =              
+  GM (km^3/s^2)           = 0.151552         Geometric Albedo    =  0.04
+                                             V(1,0)              = +8.14
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) ~ 11,370,000       Orbital period      = 247.778 d
+  Eccentricity, e         ~   0.166          Rotational period   = 0.4 d 
+  Inclination, i  (deg)   ~  30.18 (equator)
+*******************************************************************************

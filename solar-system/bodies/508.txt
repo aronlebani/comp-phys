@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Pasiphae / (Jupiter)                      508
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 18              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +10.33
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 23500 (10^3)    Orbital period      = 735 d (retro)
+  Eccentricity, e         =   0.378         Rotational period   = 
+  Inclination, i  (deg)   =  148            Local invar ref. pln= Sun
+*******************************************************************************

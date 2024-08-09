@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Apr 22, 2021             Galatea / (Neptune)                      806
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)        = 79 +- 12        Mean dens (g cm^-3)= 1.3777 +- 5.57
+  GM (km^3/s^2)           = 0.18990 +- 0.76 Geometric Albedo   = 0.06 
+                                            V(1,0)             = +7.6 
+
+ SATELLITE ORBITAL DATA (mean values wrt Laplace plane):
+  Semi-major axis, a (km) = 62000           Orbital period     = 0.428744 d
+  Eccentricity, e         = 0.0             Rotational period  = 
+  Inclination, i  (deg)   = 0.0
+
+ Fit to all reported data through 2020 (Voyager 2, ground, HST)
+*******************************************************************************

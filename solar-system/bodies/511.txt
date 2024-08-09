@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Carme  / (Jupiter)                        511
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 15              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +11.3 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 22600 (10^3)    Orbital period      = 692 d (retro)
+  Eccentricity, e         =   0.207         Rotational period   = 
+  Inclination, i  (deg)   =  163            Local invar ref. pln= Sun
+*******************************************************************************

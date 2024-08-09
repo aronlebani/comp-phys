@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Apr 22, 2021            Larissa  / (Neptune)                      807
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)        =  96 +- 7        Mean dens (g cm^-3)= 1.0303 +- 12.6
+  GM (km^3/s^2)           = 0.25484 +- 3.12 Geometric albedo    =  0.06 
+                                            V(1,0)              = +7.3 
+
+ SATELLITE ORBITAL DATA (mean values wrt Laplace plane):
+  Semi-major axis, a (km) = 73500           Orbital period      = 0.554989 d
+  Eccentricity, e         = 0.001           Rotational period   = 
+  Inclination, i  (deg)   = 0.2 
+
+ Fit to all reported data through 2020 (Voyager 2, ground, HST)
+*******************************************************************************

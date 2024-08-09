@@ -1,0 +1,12 @@
+*******************************************************************************
+ Revised: Mar 12, 2021           Callisto / (Jupiter)                       504
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)      = 2410.3 +- 1.5       Density (g cm^-3)= 1.834 +- 0.004
+  GM (km^3/s^2)         = 7179.2834 +- 0.0097 Geometric Albedo = 0.17  +- 0.02
+
+ SATELLITE ORBIT (at J2000.0 epoch, 2000-Jan-1.5):
+  Semi-major axis, a (km)~ 1,883,000          Orbital period   ~ 16.691    d
+  Eccentricity, e        ~ 0.00744            Rotational period= Synchronous
+  Inclination, i  (deg)  ~ 0.200 
+*******************************************************************************

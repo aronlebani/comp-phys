@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Jan 26, 2022             Mimas / (Saturn)                         601
+                        http://ssd.jpl.nasa.gov/?sat_phys_par
+                         http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean Radius (km)        = 198.8   +- 1.5   Density (g/cm^3)  = 1.152 +- 0.027
+  Mass (10^19 kg)         =   3.75           Geometric Albedo  = 0.6 
+  GM (km^3/s^2)           =   2.503489       V(1,0)            = +3.3
+
+ SATELLITE ORBITAL DATA (mean elements referred to local Laplace plane):
+  Semi-major axis, a (km) = 185.54(10^3)    Orbital period     = 0.9424218 d
+  Eccentricity, e         = 0.0196          Rotational period  = Synchronous
+  Inclination, i  (deg)   = 1.572
+*******************************************************************************

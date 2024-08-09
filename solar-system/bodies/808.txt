@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Apr 22, 2021            Proteus  / (Neptune)                      808
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)       = 208 +- 8       Mean density (g cm^-3)= 1.03 +- 0.97
+  GM (km^3/s^2)          = 2.58 +- 2.42   Geometric Albedo      = 0.06 
+                                          V(1,0)                = +5.6 
+
+ SATELLITE ORBITAL DATA (mean values wrt Laplace plane):
+  Semi-major axis, a (km)= 117600         Orbital period      = 1.122315 d
+  Eccentricity, e        = 0.0            Rotational period   = 
+  Inclination, i  (deg)  = 0.55
+
+ Fir to all reported measurements through 2020 (Voyager 2, ground, HST)
+*******************************************************************************

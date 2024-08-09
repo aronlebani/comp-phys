@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021             Leda  / (Jupiter)                        513
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             =  5              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +13.5 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 11094 (10^3)    Orbital period      = 238.72 d 
+  Eccentricity, e         =   0.148         Rotational period   = 
+  Inclination, i  (deg)   =   27            Local invar ref. pln= Sun
+*******************************************************************************

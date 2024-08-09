@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Elara   / (Jupiter)                       507
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 40 +- 10        Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =   0.03
+                                            V(1,0)              = +10.07
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 11737 (10^3)    Orbital period      = 259.6528 d
+  Eccentricity, e         =   0.207         Rotational period   = 0.5 d 
+  Inclination, i  (deg)   =  28             Local invar ref. pln= Sun
+*******************************************************************************

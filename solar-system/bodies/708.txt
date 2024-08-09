@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Sep 10, 2019             Bianca  / (Uranus)                       708
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 22 +- 3           Density (g cm^-3)   =
+  Mass (10^20 kg )      =                   Geometric Albedo    =   0.07 
+                                            V(1,0)              = +10.3
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole)
+  Semi-major axis, a (km) =  59.165 (10^3)  Orbital period      =  0.434577 d
+  Eccentricity, e         =   0.001         Rotational period   = 
+  Inclination, i  (deg)   = 179.8
+*******************************************************************************

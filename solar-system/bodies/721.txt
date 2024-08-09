@@ -1,0 +1,12 @@
+*******************************************************************************
+ Revised: Feb 28, 2024          Trinculo  / (Uranus)                        721
+           https://ssd.jpl.nasa.gov/sats/phys_par/ (physical properties)
+           https://ssd.jpl.nasa.gov/sats/elem/     (mean elements)
+
+ Uranian irregular satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 8502600.        Sid. orbital period =  749.4002 d
+  Eccentricity, e         = 0.220           Inclination, i      = 167.1 deg
+  Mean anomaly, M (deg)   =  55.6           Arg of periapse, w  = 162.2 deg
+*******************************************************************************

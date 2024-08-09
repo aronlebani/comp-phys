@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Sep 10, 2019             Puck / (Uranus)                          715
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 77 +- 3           Density (g cm^-3)   =
+  Mass (10^20 kg )      =                   Geometric Albedo    =   0.07 
+                                            V(1,0)              =  +7.5
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole)
+  Semi-major axis, a (km) =  86.004 (10^3)  Orbital period      =  0.761832 d
+  Eccentricity, e         =   0.000         Rotational period   = 
+  Inclination, i  (deg)   = 179.7
+*******************************************************************************

@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Jan 26, 2022            Hyperion / (Saturn)                       607
+                        http://ssd.jpl.nasa.gov/?sat_phys_par
+                          http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean Radius (km)        = 133    +- 8    Density (g/cm^3)  =  0.569 +- 0.108
+  Mass (10^19 kg)         =   1.08 +- 0.52 Geometric Albedo  =  0.25
+  GM (km^3/s^2)           = 0.3705 +- 0.02 V(1,0)            = +4.8 
+
+ SATELLITE ORBITAL DATA (mean values with respect to local Laplace plane):
+  Semi-major axis, a (km) = 1500.933(10^3) Orbital period    = 21.28 d
+  Eccentricity, e         = 0.0232         Rotational period = Chaotic
+  Inclination, i  (deg)   = 0.615
+*******************************************************************************

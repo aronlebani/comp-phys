@@ -1,0 +1,110 @@
+#!/usr/bin/env expect
+
+# jpl-horizons
+#
+# Query JPL Horizons ephemeris system. This script is based off of example
+# scripts provided by JPL https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS/README.
+#
+# Usage: jpl-horizons [--body | --eph] <object> <out_file>
+#
+# The script queries the Horizons database and saves the data in the specified
+# file. If --body is specified, queries data relating to the body itself. If
+# --eph is specified, queries ephemeris data.
+#
+# Aron Lebani <aron@lebani.dev>
+
+proc download_file {out_file} {
+	# Select to obtain output data via ftp
+	#
+	send "f\r"
+	expect -re "Full path   :  (.*)\r\r\n"
+
+	# Output has been generated. Select output ftp file url
+	#
+	set file_url $expect_out(1,string)
+	send "x\r"
+
+	# The recommended method of retrieveing the file is directly downloading.
+	# Anonymous FTP is deprecated and will likely be disabled in the future.
+	#
+	spawn bash
+	send "curl -o $out_file $file_url\r"
+	expect -re "100.*"
+}
+
+if {$argc != 3} {
+	puts "Usage: jpl-horizons [--body | --eph] <object> <out>"
+	exit 1
+}
+
+set body_p [string match [lindex $argv 0] "--body"]
+set object [lindex $argv 1]
+set out_file [lindex $argv 2]
+
+# Define friendlier names for the Horizon system body Ids and commands
+#
+set sun 0
+set ephemeris e
+set vectors v
+set eclipse eclip
+
+# Connection settings
+#
+set host ssd.jpl.nasa.gov
+set port 6775
+
+# Establish defaults
+#
+log_user 0;			# Set to 0 to supress output
+exp_internal 0;		# Diagnostic output: 1=on, 0=off
+set timeout 60;		# Set timeout to prevent infinite hang if network is down
+remove_nulls 0;		# Disable null removal from Horizons output
+
+# Start telnet session
+#
+spawn telnet $host $port
+expect "Horizons>"
+
+# Enter inputs
+#
+set selection $ephemeris
+set oev $vectors
+set coord $sun
+set reference $eclipse
+set starting "1994-Apr-01"
+set ending "1994-Apr-02"
+set interval "1d"
+
+send "$object\r"
+expect -re ".*Select.*"
+
+# If we just want the body data, download it now and exit.
+if { $body_p } {
+	download_file $out_file
+	send "exit"
+	exit 0
+}
+
+# Otherwise, continue to ephemeris selection.
+send "$selection\r"
+expect -re  ".*Observe, Elements, Vectors.*"
+send "$oev\r"
+expect -re  ".*Coordinate center.*"
+send "@$coord\r"
+expect -re  ".*Reference plane.*"
+send "$reference\r"
+expect -re ".*Starting.*"
+send "$starting\r"
+expect -re ".*Ending.*"
+send "$ending\r"
+expect -re ".*Output interval.*"
+send "$interval\r"
+expect -re ".*Accept default output.*"
+send "\r"
+expect -re ".*Ephemeris / PORT_LOGIN.*"
+send "q";			# This exits the pager
+expect -re ".*>>> Select.*"
+
+download_file $out_file
+send "exit"
+exit 0

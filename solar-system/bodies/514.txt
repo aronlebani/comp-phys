@@ -1,0 +1,12 @@
+*******************************************************************************
+ Revised: Mar 12, 2021             Thebe / (Jupiter)                        514
+
+ SATELLITE PHYSICAL P:
+  Mean radius (km)      = 49.3 +- 4           Density (g cm^-3)=              
+  GM (km^3/s^2)         =  0.0301 +/- 0.0375  Geometric Albedo= 0.047 +/- 0.003
+
+ SATELLITE ORBIT (at J2000.0 epoch, 2000-Jan-1.5):
+  Semi-major axis, a (km) ~ 222,000           Orbital period    ~ 0.6776 d 
+  Eccentricity, e         ~   0.015           Rotational period = synchronous
+  Inclination, i (deg)    ~   1.1
+*******************************************************************************

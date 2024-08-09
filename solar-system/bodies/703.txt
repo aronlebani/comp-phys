@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Jun 17, 2016             Titania / (Uranus)                       703
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 788.9  +- 1.8     Density (g cm^-3)   =  1.71 +- 0.05
+  Mass (10^20 kg )      =  35.27 +- 0.90    Geometric Albedo    =  0.27 
+                                            V(1,0)              = +1.02
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole)
+  Semi-major axis, a (km) = 435.8 (10^3)    Orbital period      = 8.706 d
+  Eccentricity, e         =   0.0022        Rotational period   = Synchronous
+  Inclination, i  (deg)   = 179.90
+*******************************************************************************

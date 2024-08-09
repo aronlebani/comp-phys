@@ -1,0 +1,11 @@
+*******************************************************************************
+ Revised: Feb 28, 2024               Neso / (Neptune)                      813
+                           https://ssd.jpl.nasa.gov/sats/elem/
+
+ Irregular Neptunian satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 49895300.       Sid. orbital period =  9794.986 d
+  Eccentricity, e         = 0.455           Inclination, i      = 128.4 deg
+  Mean anomaly, M (deg)   =  13.8           Arg of periapse, w  =  89.8 deg
+*******************************************************************************

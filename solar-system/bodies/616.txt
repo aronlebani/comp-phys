@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Oct 03, 2018            Prometheus/ (Saturn)                      616
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 68.2x41.6x28.2    Density (g cm^-3)   =  0.27 +- 0.16 
+  Mass (10^20 kg )      = 0.0014            Geometric Albedo    =  0.5 
+                                            V(1,0)              = +6.2 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 139.35 (10^3)   Orbital period      = 0.612986 d
+  Eccentricity, e         = 0.0024          Rotational period   = 
+  Inclination, i  (deg)   = 0.0     
+*******************************************************************************

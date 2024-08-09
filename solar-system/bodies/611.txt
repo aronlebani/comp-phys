@@ -1,0 +1,17 @@
+*******************************************************************************
+ Revised: Oct 03, 2018            Epimetheus / (Saturn)                     611
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 64.9x57.3x53    Density (g cm^-3)   = 0.63 +- 0.11 
+  Mass (10^20 kg )        = 0.0055 +-0.0003 Geometric Albedo    = 0.5 
+                                            V(1,0)              = +6.1 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 151.422 (10^3)  Orbital period      = 0.694590 d
+  Eccentricity, e         = 0.009           Rotational period   = Synchronous
+  Inclination, i  (deg)   = 0.34 
+
+ NOTE: The IAU rotational spin-pole model (defining latitude and logitude) is 
+       valid only near the time of the 1981 Voyager 1 & 2 flybys; an updated
+       Cassini-based coordinate grid model is not yet published by the IAU.
+*******************************************************************************

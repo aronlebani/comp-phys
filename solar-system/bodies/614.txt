@@ -1,0 +1,21 @@
+*******************************************************************************
+ Revised: Jan 26, 2022            Calypso  / (Saturn)                       614
+                          http://ssd.jpl.nasa.gov/?sat_phys_par
+                            http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)            = 15.3 x 9.3 x 6.3 Density (g cm^-3)   =  1.0
+  Mass (10^22 g)         = 0.0003597        Geometric Albedo    =  0.7 
+  GM (km^3/s^2)          = 0.00024          V(1,0)              = +9.4 
+
+ SATELLITE ORBITAL DATA (mean values with respect to local Laplace plane):
+  Semi-major axis, a (km) = 295.000(10^3)   Orbital period      = 1.887803 d
+  Eccentricity, e         = 0.001           Rotational period   = 
+  Inclination, i  (deg)   = 1.5     
+
+ NOTE: The IAU rotational spin-pole model (defining latitude and logitude) is 
+       valid only near the time of the 1981 Voyager 1 & 2 flybys; an updated
+       Cassini-based coordinate grid model is not yet published by the IAU.
+
+      Trajectory is valid only for the interval spanned by Cassini data.
+*******************************************************************************

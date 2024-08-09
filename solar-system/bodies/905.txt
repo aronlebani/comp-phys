@@ -1,0 +1,19 @@
+*******************************************************************************
+ Revised: Apr 03, 2024              Styx / (Pluto)                          905
+
+ Pre-computed solution PLU060/DE440. Fit to post New Horizons encounter and
+ Gaia data through 2023. For discussion, see ...
+
+ M. Brozovic, R. A. Jacobson (2024) "Post-New Horizons orbits and masses
+ for the satellites of Pluto". AJ (in press).
+
+ Satellite General Physical Properties (PLU060):
+  GM (km^3/s^2)         = 0.0000405       Density (g cm^-3)    =     
+  Radius (km)           = 5.2 +- 1.0      Geometric alebdo     =
+  Mass (10^21 kg )      =                 Hill Sphere rad., km =
+  Surface grav. (cm/s^2)=                 Escape velocity, km/s=
+
+ Satellite mean orbital data (2000-Jan-01.5 TDB, planet-centered equatorial):
+  Semi-major axis, a (km) = 43200.        Orbital period, days  = 20.16 
+  Eccentricity, e         = 0.025         Inclination, deg.     = 0.0
+******************************************************************************

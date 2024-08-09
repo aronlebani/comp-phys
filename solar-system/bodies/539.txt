@@ -1,0 +1,9 @@
+*******************************************************************************
+ Revised: Mar 07, 2021             Hegemone / (Jupiter)                     539
+ Description: Apr 15, 2008   http://ssd.jpl.nasa.gov/?sat_elem 
+  
+ Irregular retrograde moon discovered in 2003 (IAUC 8088) by S. S. Sheppard 
+ (University of Hawaii).  
+
+ Initial designation S/2003J8. Named in March 2005 (IAUC 8502).
+*******************************************************************************

@@ -1,0 +1,11 @@
+*******************************************************************************
+ Revised: Feb 28, 2024          Laomedeia / (Neptune)                      812
+                          https://ssd.jpl.nasa.gov/sats/elem/
+
+ Irregular Neptunian satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 23499900.       Sid. orbital period = 3176.1252 d
+  Eccentricity, e         = 0.419           Inclination, i      =  36.9 deg
+  Mean anomaly, M (deg)   = 248.1           Arg of periapse, w  = 146.2 deg
+*******************************************************************************

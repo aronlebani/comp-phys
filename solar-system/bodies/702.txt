@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Jun 17, 2016             Umbriel / (Uranus)                       702
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 584.7  +- 2.8     Density (g cm^-3)   =  1.40 +- 0.16
+  Mass (10^20 kg )      =  11.72 +- 1.35    Geometric Albedo    =  0.18 
+                                            V(1,0)              = +2.10
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole):
+  Semi-major axis, a (km) = 266.0 (10^3)    Orbital period      = 4.144 d
+  Eccentricity, e         =   0.0050        Rotational period   = Synchronous
+  Inclination, i  (deg)   =  179.64
+*******************************************************************************

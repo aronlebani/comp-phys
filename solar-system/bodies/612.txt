@@ -1,0 +1,21 @@
+*******************************************************************************
+ Revised: Jan 26, 2022            Helene  / (Saturn)                        612
+                          http://ssd.jpl.nasa.gov/?sat_phys_par
+                            http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km),mean        = 16 +- 4         Density (g cm^-3)   =  1.5
+  Mass (10^22 g  )        = 0.002547        Geometric Albedo    =  0.6 
+  GM (km^3/s^2)           = 0.00047574      V(1,0)              = +8.8 
+
+ SATELLITE ORBITAL DATA (mean values with respect to local Laplace plane):
+  Semi-major axis, a (km) = 377.420(10^3)   Orbital period      = 2.736915 d
+  Eccentricity, e         = 0.0071          Rotational period   = 
+  Inclination, i  (deg)   = 0.213   
+
+ NOTE: The IAU rotational spin-pole model (defining latitude and logitude) is 
+       valid only near the time of the 1981 Voyager 1 & 2 flybys; an updated
+       Cassini-based coordinate grid model is not yet published by the IAU.
+
+       Trajectory is valid only for the interval spanned by Cassini data.
+*******************************************************************************

@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Feb 28, 2024       Prospero (1999U3)  / (Uranus)                  718
+           https://ssd.jpl.nasa.gov/sats/phys_par/ (physical properties)
+           https://ssd.jpl.nasa.gov/sats/elem/     (mean elements)
+
+ Uranian irregular satellite
+
+ Satellite Physical Properties:
+  Radius (km)           = < 50 km
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 16221000.       Sid. orbital period = 1979.4067 d
+  Eccentricity, e         = 0.441           Inclination, i      = 149.4 deg
+  Mean anomaly, M (deg)   = 197.6           Arg of periapse, w  = 180.4 deg
+*******************************************************************************

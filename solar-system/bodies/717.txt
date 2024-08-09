@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Feb 28, 2024           Sycorax / (Uranus)                         717
+           https://ssd.jpl.nasa.gov/sats/phys_par/ (physical properties)
+           https://ssd.jpl.nasa.gov/sats/elem/     (mean elements)
+
+ Uranian irregular satellite
+
+ Satellite Physical Properties:
+  Radius (km)           = ~60 
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 12193200.       Sid. orbital period = 1288.4048 d
+  Eccentricity, e         = 0.520           Inclination, i      = 157.0 deg
+  Mean anomaly, M (deg)   = 332.1           Arg of periapse, w  =  25.4 deg
+*******************************************************************************

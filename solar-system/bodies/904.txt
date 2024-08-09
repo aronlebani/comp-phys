@@ -1,0 +1,19 @@
+*******************************************************************************
+ Revised: Apr 03, 2024              Kerberos / (Pluto)                      904
+
+ Pre-computed solution PLU060/DE440. Fit to post New Horizons encounter and
+ Gaia data through 2023. For discussion, see ...
+
+ M. Brozovic, R. A. Jacobson (2024) "Post-New Horizons orbits and masses
+ for the satellites of Pluto". AJ (in press)
+
+ Satellite General Physical Properties (PLU060):
+  GM (km^3/s^2)         = 0.00006038      Density (g cm^-3)    =
+  Radius (km)           = 6.0 +- 1.0      Geometric albedo     =
+  Mass (10^21 kg )      =                 Hill Sphere rad., km =
+  Surface grav. (cm/s^2)=                 Escape velocity, km/s=
+
+ Satellite mean orbital data (2000-Jan-01.5 TDB, planet-centered equatorial):
+  Semi-major axis, a (km) = 58300.        Orbital period, days = 32.17          
+  Eccentricity, e         = 0.010         Inclination, deg.    = 0.4 
+*******************************************************************************

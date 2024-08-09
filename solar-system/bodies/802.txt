@@ -1,0 +1,17 @@
+*******************************************************************************
+ Revised: Apr 20, 2022             Nereid / (Neptune)                       802
+                         https://ssd.jpl.nasa.gov/sats/elem/
+                        https://ssd.jpl.nasa.gov/sats/phys_par/
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)        =  170 +- 25      Mean density (g cm^-3)= n.a.
+  GM (km^3/s^2)           =  n.a.           Geometric Albedo      =  0.2  
+                                            V(1,0)                = +4.0 
+
+ Satellite Orbital Data (Epoch 2020-Jan-1; MEAN values are wrt ecliptic plane):
+  Semi-major axis, a (km) = 5504000.        Sid. orbital period =  360.1403 d
+  Eccentricity, e         = 0.749           Inclination, i      =   5.8 deg
+  Mean anomaly, M (deg)   = 318.0           Arg of periapse, w  = 290.3 deg
+
+ Fit to all reported measurements through 2019, including Voyager 2.
+*******************************************************************************

@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Oct 03, 2018            Pandora / (Saturn)                        617
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 52.2x40.8x31.5    Density (g cm^-3)   =  0.42 +- 0.28 
+  Mass (10^20 kg )      = 0.0013            Geometric Albedo    =  0.5 
+                                            V(1,0)              = +6.9 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 141.70 (10^3)   Orbital period      = 0.628804 d
+  Eccentricity, e         = 0.0042          Rotational period   = 
+  Inclination, i  (deg)   = 0.0     
+*******************************************************************************

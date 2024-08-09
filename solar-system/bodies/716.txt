@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Feb 28, 2024           Caliban / (Uranus)                         716
+           https://ssd.jpl.nasa.gov/sats/phys_par/ (physical properties)
+           https://ssd.jpl.nasa.gov/sats/elem/     (mean elements)
+
+ Irregular Uranian satellite
+
+ Satellite Physical Properties:
+  Radius (km)           = ~30
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 7167000.        Sid. orbital period =  579.7595 d
+  Eccentricity, e         = 0.200           Inclination, i      = 141.4 deg
+  Mean anomaly, M (deg)   = 241.2           Arg of periapse, w  = 349.7 deg
+*******************************************************************************

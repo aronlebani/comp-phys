@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Apr 22, 2021             Thalassa / (Neptune)                     804
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)       =  40 +- 8         Mean dens (g cm^-3)= 1.3184 +- 0.84
+  GM (km^3/s^2)          = 0.02359 +- 0.005 Geometric Albedo   =  0.06 
+                                            V(1,0)             = +9.1 
+
+ SATELLITE ORBITAL DATA (mean values wrt Lapplace plane):
+  Semi-major axis, a (km)= 50100            Orbital period     = 0.311078 d
+  Eccentricity, e        = 0.0              Rotational period  = 
+  Inclination, i  (deg)  = 0.2 
+
+ Fit to all reported data through 2020 (Voyager 2, ground, HST)
+*******************************************************************************

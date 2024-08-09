@@ -1,0 +1,9 @@
+*******************************************************************************
+ Revised: Oct 11, 2022                Ymir / (Saturn)                       619
+                             https://ssd.jpl.nasa.gov/sats/elem/
+
+ Retrograde irregular moon of Saturn. Discovered by B. Gladman et al. 
+ (IAUC 7512). Preliminary designation S/2000 S 1 (2000S1). Named in 2003
+ (IAUC 8177), from Norse mythology, where Ymir is the ancestor of all the 
+ Jotuns or frost giants.
+*******************************************************************************

@@ -1,0 +1,11 @@
+*******************************************************************************
+ Revised: Feb 28, 2024            Halimede / (Neptune)                      809
+                         https://ssd.jpl.nasa.gov/sats/elem/
+
+ Irregular Neptunian satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 IDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 16590500.       Sid. orbital period = 1879.7825 d
+  Eccentricity, e         = 0.521           Inclination, i      = 119.6 deg
+  Mean anomaly, M (deg)   = 135.8           Arg of periapse, w  = 157.9 deg
+*******************************************************************************

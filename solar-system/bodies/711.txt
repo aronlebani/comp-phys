@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Sep 10, 2019              Juliet / (Uranus)                       711
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 42 +- 5           Density (g cm^-3)   =
+  Mass (10^20 kg )      =                   Geometric Albedo    =   0.07 
+                                            V(1,0)              =  +8.8
+
+ SATELLITE ORBITAL DATA (mean elements referred to equatorial plane & IAU pole)
+  Semi-major axis, a (km) =  64.358 (10^3)  Orbital period      =  0.493066 d
+  Eccentricity, e         =   0.001         Rotational period   = 
+  Inclination, i  (deg)   = 179.9
+*******************************************************************************

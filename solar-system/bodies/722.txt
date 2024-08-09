@@ -1,0 +1,12 @@
+*******************************************************************************
+ Revised: Feb 28, 2024            Francisco  / (Uranus)                     722
+           https://ssd.jpl.nasa.gov/sats/phys_par/ (physical properties)
+           https://ssd.jpl.nasa.gov/sats/elem/     (mean elements)
+
+ Uranian irregular satellite
+
+ Satellite Orbital Data (Epoch 2020-Jan-1 TDB; MEAN values wrt ecliptic plane):
+  Semi-major axis, a (km) = 4275700.        Sid. orbital period =  267.1086 d
+  Eccentricity, e         = 0.144           Inclination, i      = 146.3 deg
+  Mean anomaly, M (deg)   = 288.4           Arg of periapse, w  = 137.6 deg
+*******************************************************************************

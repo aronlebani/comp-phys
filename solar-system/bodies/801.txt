@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Apr 22, 2021             Triton / (Neptune)                       801
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)        = 1352.6 +- 2.4    Mean dens (g cm^-3)= 2.065 +-0.011
+  GM (km^3/s^2)           = 1428.495 +- 0.62 Geometric Albedo   = 0.7  
+                                             V(1,0)             = -1.24
+
+ SATELLITE ORBITAL DATA (mean values wrt Laplace plane):
+  Semi-major axis, a (km) = 354800           Orbital period      = 5.876994 d
+  Eccentricity, e         = 0.000            Rotational period   = Synchronous
+  Inclination, i  (deg)   = 157.3  
+
+ Fit to all reported measurements through 2020 (Voyager 2, ground, HST)
+*******************************************************************************

@@ -3,12 +3,6 @@
 using GLMakie
 using TOML
 
-function usage()
-	println("Usage: julia $(PROGRAM_FILE) [OPTIONS] datafile")
-end
-
-const G = 1.487E-10	# au^3.(10^24)kg^-1.day^-2
-
 const Vector3d = Vector{Float64}
 
 struct Body
@@ -52,11 +46,19 @@ struct Settings
 	# The body sizes are scaled by this number. Pick something that makes
 	# the simulation look nice.
 	scale_factor::Float64
+
+	# The gravitational constant.
+	G::Float64
+end
+
+function usage()
+	println("Usage: julia $(PROGRAM_FILE) [OPTIONS] <configfile>")
 end
 
 function read_settings_from_file(file)
 	raw = TOML.parsefile(file)
 
+	G			 = raw["G"]
 	m			 = raw["m"]
 	r_init		 = raw["r_init"]
 	v_init		 = raw["v_init"]
@@ -69,7 +71,7 @@ function read_settings_from_file(file)
 	scale_factor = haskey(raw, "scale_factor") ? raw["scale_factor"] : 1.0
 
 	Settings(r_init, v_init, m, sizes, colours, dt, iterations, delay,
-		nbodies, scale_factor)
+		nbodies, scale_factor, G)
 end
 
 function gravitation(i::Int, bodies::Array{Body})::Vector3d
@@ -166,10 +168,11 @@ function simulate(settings::Settings)
 	z = @lift([$bodies[i].r[3] for i = 1:nbodies])
 
 	figure = Figure()
-	axis = Axis3(figure[1, 1], aspect = :data, limits = get_limits(r_init))
-	scatter!(axis, x, y, z, color = colours, markersize = sizes .* scale_factor)
-	display(figure)
+	scene = LScene(figure[1, 1], scenekw = (backgroundcolor = :black, clear = true))
 
+	scatter!(scene, x, y, z, color = colours, markersize = sizes .* scale_factor)
+	display(figure)
+	
 	for step = 1:iterations
 		sleep(delay)
 		bodies[] = leapfrog(bodies[], dt)
@@ -186,6 +189,8 @@ if abspath(PROGRAM_FILE) == @__FILE__
 	end
 
 	settings = read_settings_from_file(ARGS[1])
+
+	G = settings.G
 
 	if settings.nbodies > length(settings.r_init)
 		println("nbodies must be <= length(r_init)")

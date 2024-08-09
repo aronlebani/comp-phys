@@ -1,0 +1,15 @@
+*******************************************************************************
+ Revised: Oct 03, 2018            Pan / (Saturn)                            618
+
+ Solution fit to Voyager and Cassini data.
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)           = 17.2x15.4x10.4    Density (g cm^-3)   =  
+  Mass (10^20 kg )      =                   Geometric Albedo    =  0.5 
+                                            V(1,0)              = 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 133.584(10^3)   Orbital period      = 0.5750 d
+  Eccentricity, e         =                 Rotational period   = 
+  Inclination, i  (deg)   =         
+*******************************************************************************

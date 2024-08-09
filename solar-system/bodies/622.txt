@@ -1,0 +1,6 @@
+*******************************************************************************
+ Revised: Oct 11, 2022               Ijiraq / (Saturn)                      622
+
+ For mean orbital elements, see https://ssd.jpl.nasa.gov/sats/elem/  
+ Recently discovered Saturnian irregular.
+*******************************************************************************

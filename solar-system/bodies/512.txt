@@ -1,0 +1,13 @@
+*******************************************************************************
+ Revised: Mar 07, 2021            Ananke / (Jupiter)                        512
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Radius (km)             = 10              Density (g cm^-3)   =              
+  Mass (10^20 kg )        =                 Geometric Albedo    =  
+                                            V(1,0)              = +12.2 
+
+ SATELLITE ORBITAL DATA:
+  Semi-major axis, a (km) = 21200 (10^3)    Orbital period      = 631 d (retro)
+  Eccentricity, e         =   0.169         Rotational period   = 
+  Inclination, i  (deg)   =  147            Local invar ref. pln= Sun
+*******************************************************************************
